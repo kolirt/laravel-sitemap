@@ -1,0 +1,31 @@
+{
+  "name": "kolirt/laravel-sitemap",
+  "description": "Sitemap for laravel application.",
+  "keywords": [
+    "laravel",
+    "sitemap"
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Asan Abdurakhmanov",
+      "email": "asan11@outlook.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Kolirt\\Sitemap\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Kolirt\\Sitemap\\ServiceProvider"
+      ],
+      "aliases": {
+        "Sitemap": "Kolirt\\Sitemap\\Sitemap"
+      }
+    }
+  }
+}

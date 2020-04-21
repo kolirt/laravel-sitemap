@@ -1,0 +1,19 @@
+{!! '<?xml version="1.0" encoding="UTF-8"?>'  !!}
+@php
+    echo "<urlset>\r\n";
+    foreach ($sitemap->getUrls() as $url) {
+        echo "\t<url>\r\n";
+        echo "\t\t<loc>" . $url['loc'] . "</loc>\r\n";
+        if ($url['lastmod'] !== null) {
+            echo "\t\t<lastmod>" . $url['lastmod'] . "</lastmod>\r\n";
+        }
+        if ($url['changefreq'] !== null) {
+            echo "\t\t<changefreq>" . $url['changefreq'] . "</changefreq>\r\n";
+        }
+        if ($url['priority'] !== null) {
+            echo "\t\t<priority>" . $url['priority'] . "</priority>\r\n";
+        }
+        echo "\t</url>\r\n";
+    }
+    echo '</urlset>';
+@endphp
