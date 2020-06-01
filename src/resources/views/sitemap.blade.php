@@ -1,6 +1,6 @@
 {!! '<?xml version="1.0" encoding="UTF-8"?>'  !!}
 @php
-    echo "<urlset>\r\n";
+    echo "<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\r\n";
     foreach ($sitemap->getUrls() as $url) {
         echo "\t<url>\r\n";
         echo "\t\t<loc>" . $url['loc'] . "</loc>\r\n";
