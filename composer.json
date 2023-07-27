@@ -1,0 +1,30 @@
+{
+  "name": "kolirt/laravel-sitemap",
+  "description": "Sitemap for laravel application.",
+  "keywords": [
+    "laravel",
+    "sitemap"
+  ],
+  "license": "MIT",
+  "version": "1.0.2",
+  "authors": [
+    {
+      "name": "kolirt"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Kolirt\\Sitemap\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Kolirt\\Sitemap\\ServiceProvider"
+      ],
+      "aliases": {
+        "Sitemap": "Kolirt\\Sitemap\\Sitemap"
+      }
+    }
+  }
+}
