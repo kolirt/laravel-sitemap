@@ -1,18 +1,26 @@
 # Laravel Sitemap
-Laravel sitemap generator.
+Sitemap generator for Laravel projects
+
+<a href="https://www.buymeacoffee.com/kolirt" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/arial-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" >
+</a>
+
 
 ## Installation
 ```bash
 $ composer require kolirt/laravel-sitemap
 ```
 
+
 ## Examples
-Web routes
+
+### Web routes
 ```php
 Route::get('sitemap.xml', 'SitemapController@index');
 ```
 
-SitemapController
+
+### SitemapController
 ```php
 class LaravelSitemapController extends Controller
 {
@@ -39,3 +47,15 @@ class LaravelSitemapController extends Controller
 
 }
 ```
+
+
+## FAQ
+Check closed [issues](https://github.com/kolirt/laravel-sitemap/issues) to get answers for most asked questions
+
+
+## License
+[MIT](LICENSE.txt)
+
+
+## Other packages
+Check out my other packages on my [GitHub profile](https://github.com/kolirt)
