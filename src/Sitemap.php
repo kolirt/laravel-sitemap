@@ -9,13 +9,13 @@ class Sitemap
 
     private $urls = [];
 
-    const CHANGE_FREG_ALWAYS  = 'always';
-    const CHANGE_FREG_HOURLY  = 'hourly';
-    const CHANGE_FREG_DAILY   = 'daily';
-    const CHANGE_FREG_WEEKLY  = 'weekly';
+    const CHANGE_FREG_ALWAYS = 'always';
+    const CHANGE_FREG_HOURLY = 'hourly';
+    const CHANGE_FREG_DAILY = 'daily';
+    const CHANGE_FREG_WEEKLY = 'weekly';
     const CHANGE_FREG_MONTHLY = 'monthly';
-    const CHANGE_FREG_YEARLY  = 'yearly';
-    const CHANGE_FREG_NEVER   = 'never';
+    const CHANGE_FREG_YEARLY = 'yearly';
+    const CHANGE_FREG_NEVER = 'never';
 
     public function render()
     {
@@ -27,10 +27,10 @@ class Sitemap
         $this->validateChangefreq($changefreq);
 
         $this->urls[] = [
-            'loc'        => $this->prepareLoc($loc),
-            'lastmod'    => $lastmod ? $lastmod->toAtomString() : null,
+            'loc' => $this->prepareLoc($loc),
+            'lastmod' => $lastmod ? $lastmod->toAtomString() : null,
             'changefreq' => $changefreq,
-            'priority'   => $priority
+            'priority' => $priority
         ];
     }
 

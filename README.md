@@ -2,7 +2,7 @@
 Sitemap generator for Laravel projects
 
 
-# Structure
+## Structure
 - [Installation](#installation)
 - [Usage](#examples)
   - [Web routes](#web-routes)
@@ -16,13 +16,13 @@ Sitemap generator for Laravel projects
 </a>
 
 
-# Installation
+## Installation
 ```bash
 $ composer require kolirt/laravel-sitemap
 ```
 
 
-# Usage
+## Usage
 
 ### Web routes
 ```php
@@ -59,13 +59,13 @@ class LaravelSitemapController extends Controller
 ```
 
 
-# FAQ
+## FAQ
 Check closed [issues](https://github.com/kolirt/laravel-sitemap/issues) to get answers for most asked questions
 
 
-# License
+## License
 [MIT](LICENSE.txt)
 
 
-# Other packages
+## Other packages
 Check out my other packages on my [GitHub profile](https://github.com/kolirt)
