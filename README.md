@@ -1,18 +1,28 @@
 # Laravel Sitemap
 Sitemap generator for Laravel projects
 
+
+# Structure
+- [Installation](#installation)
+- [Usage](#examples)
+  - [Web routes](#web-routes)
+  - [SitemapController](#sitemapcontroller)
+- [FAQ](#faq)
+- [License](#license)
+- [Other packages](#other-packages)
+
 <a href="https://www.buymeacoffee.com/kolirt" target="_blank">
   <img src="https://cdn.buymeacoffee.com/buttons/v2/arial-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" >
 </a>
 
 
-## Installation
+# Installation
 ```bash
 $ composer require kolirt/laravel-sitemap
 ```
 
 
-## Examples
+# Usage
 
 ### Web routes
 ```php
@@ -49,13 +59,13 @@ class LaravelSitemapController extends Controller
 ```
 
 
-## FAQ
+# FAQ
 Check closed [issues](https://github.com/kolirt/laravel-sitemap/issues) to get answers for most asked questions
 
 
-## License
+# License
 [MIT](LICENSE.txt)
 
 
-## Other packages
+# Other packages
 Check out my other packages on my [GitHub profile](https://github.com/kolirt)
